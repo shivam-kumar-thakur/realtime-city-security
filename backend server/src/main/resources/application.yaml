@@ -1,0 +1,12 @@
+influx:
+  url: http://localhost:8086
+  token: your-influx-token
+  org: your-org-name
+  bucket: your-bucket-name
+
+spring:
+  application:
+    name: Detection
+
+server:
+  port: 8080
